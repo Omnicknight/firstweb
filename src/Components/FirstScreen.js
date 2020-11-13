@@ -6,6 +6,7 @@ import rightswipe from '../Images/rightswipe.png';
 export default function FirstScreen() {
     return (
         <div className='firstScreen'>
+            <a name='home' className='anchor-home'></a>
             <div className='leftSwipe'>
                 <a href='/'><img src={leftswipe} alt='back'/></a>
             </div>

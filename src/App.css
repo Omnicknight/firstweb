@@ -8,6 +8,7 @@
 
 .mainDiv {
   display: flex;
+  flex-direction: column;
 }
 
 header {
@@ -139,4 +140,105 @@ section {
   border: 1px solid white;
   background: transparent;
   margin-top: 45px;
+}
+
+.anchor-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* about us */
+
+.aboutUs {
+  display: flex;
+  width: 100%;
+  height: 1100px;
+  background-color: #E3E3E3;
+  flex-direction: column;
+  align-items: center;
+  font-family: amsdam;
+}
+
+.aboutUsInfo {
+  display: flex;
+  height: 750px;
+  width: 1170px;
+  margin-top: 88px;
+  background-image: url('Images/aboutUs.png');
+  background-repeat: no-repeat;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+}
+
+.head-screen {
+  font-size: 20px;
+  background-image: url("Images/smallLine.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-top: 386px;
+  height: 50px;
+  width: 185px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.about-text {
+  width: 1015px;
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.btn-in-about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn {
+  margin: 3px;
+  border: 1px solid black;
+  height: 40px;
+  width: 133px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  padding-top: 7px;
+  font-weight: 750;
+}
+
+.btn:active {
+  color: white;
+  background-color: black;
+}
+
+.reviews {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.reviews div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 270px;
+  margin-top: 35px;
+}
+
+.reviews div p {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.reviews div img {
+  margin-bottom: 35px;
+}
+
+.reviews div span {
+  font-weight: 900;
+  font-size: 35px;
 }

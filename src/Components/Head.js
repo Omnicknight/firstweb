@@ -12,8 +12,8 @@ export default class Head extends Component {
                 </div>
                 <nav>
                     <ul className='navBar'>
-                        <li><a href='/'>HOME</a></li>
-                        <li><a href='/'>ABOUT</a></li>
+                        <li><a href='#home'>HOME</a></li>
+                        <li><a href='#aboutUs'>ABOUT</a></li>
                         <li><a href='/'>SERVICES</a></li>
                         <li><a href='/'>HISTORY</a></li>
                         <li><a href='/'>TEAM</a></li>
