@@ -1,0 +1,142 @@
+/* header */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  display: flex;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 62px;
+  background-color: white;
+}
+
+.head nav {
+  display: flex;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 170px;
+  align-items: center;
+  color: #7C7C7C;
+}
+
+img {
+  height: 29px;
+}
+
+.navBar {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navBar li {
+  list-style-type: none;
+  color: #C9C9C9;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.navBar li a {
+  color: #C9C9C9;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.head {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.social a {
+  color: #C9C9C9;
+}
+
+
+.social div {
+  width: 2px;
+  height: 18px;
+  background-color: #C9C9C9;
+}
+
+/* First Screen */
+
+section {
+  width: 100%;
+}
+
+.firstScreen {
+  background-image: url('Images/backgroundLighthouse.png');
+  display: flex;
+  width: 100%;
+  height: 686px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.swipeInfo {
+  width: 600px;
+}
+
+.swipeInfo div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.swipeInfo div p {
+  text-align: center;
+}
+
+.company {
+  font-size: 12px;
+  margin-top: 45px;
+}
+
+.ourName {
+  font-size: 37px;
+  height: 109px;
+  width: 515px;
+  background-image: url('Images/Line.png');
+  padding-top: 30px;
+  margin-top: 23px;
+  font-family: amsdam;
+}
+
+.swipeInfo div button {
+  color: white;
+  width: 152px;
+  height: 42px;
+  border: 1px solid white;
+  background: transparent;
+  margin-top: 45px;
+}
