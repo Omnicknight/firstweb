@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/firstweb/static/css/main.e0ce1e80.chunk.css",
+    "main.css": "/firstweb/static/css/main.c480b240.chunk.css",
     "main.js": "/firstweb/static/js/main.9234ff6e.chunk.js",
     "main.js.map": "/firstweb/static/js/main.9234ff6e.chunk.js.map",
     "runtime-main.js": "/firstweb/static/js/runtime-main.b1492021.js",
@@ -12,7 +12,7 @@
     "static/js/3.1afc4248.chunk.js.map": "/firstweb/static/js/3.1afc4248.chunk.js.map",
     "index.html": "/firstweb/index.html",
     "static/css/2.7dbad938.chunk.css.map": "/firstweb/static/css/2.7dbad938.chunk.css.map",
-    "static/css/main.e0ce1e80.chunk.css.map": "/firstweb/static/css/main.e0ce1e80.chunk.css.map",
+    "static/css/main.c480b240.chunk.css.map": "/firstweb/static/css/main.c480b240.chunk.css.map",
     "static/js/2.330a133f.chunk.js.LICENSE.txt": "/firstweb/static/js/2.330a133f.chunk.js.LICENSE.txt",
     "static/media/App.css": "/firstweb/static/media/slick.c94f7671.ttf",
     "static/media/avatar.223dae05.png": "/firstweb/static/media/avatar.223dae05.png",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.b1492021.js",
     "static/css/2.7dbad938.chunk.css",
     "static/js/2.330a133f.chunk.js",
-    "static/css/main.e0ce1e80.chunk.css",
+    "static/css/main.c480b240.chunk.css",
     "static/js/main.9234ff6e.chunk.js"
   ]
 }
