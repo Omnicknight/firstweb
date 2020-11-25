@@ -14,13 +14,12 @@ export default class Head extends Component {
                     <ul className='navBar'>
                         <li><a href='#home'>HOME</a></li>
                         <li><a href='#aboutUs'>ABOUT</a></li>
-                        <li><a href='/'>SERVICES</a></li>
+                        <li><a href='#services'>SERVICES</a></li>
                         <li><a href='/'>HISTORY</a></li>
-                        <li><a href='/'>TEAM</a></li>
-                        <li><a href='/'>PORTFOLIO</a></li>
-                        <li><a href='/'>PRICES</a></li>
-                        <li><a href='/'>BLOG</a></li>
-                        <li><a href='/'>CONTACT</a></li>
+                        <li><a href='#clients'>CLIENTS</a></li>
+                        <li><a href='#prices'>PRICES</a></li>
+                        <li><a href='#blog'>BLOG</a></li>
+                        <li><a href='#contact'>CONTACT</a></li>
                     </ul>
                 </nav>
                 <div className='social'>

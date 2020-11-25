@@ -7,9 +7,6 @@ export default function FirstScreen() {
     return (
         <div className='firstScreen'>
             <a name='home' className='anchor-home'></a>
-            <div className='leftSwipe'>
-                <a href='/'><img src={leftswipe} alt='back'/></a>
-            </div>
             <section className='swipeInfo'>
                 <div>
                     <p className='company'>Design Studio and Digital Agency</p>
@@ -17,9 +14,6 @@ export default function FirstScreen() {
                     <button>Get Started</button>
                 </div>
             </section>
-            <div className='rightSwipe'>
-                <a href='/'><img src={rightswipe} alt='back'/></a>
-            </div>
         </div>
     )
 }
